@@ -6,13 +6,13 @@ This repository contains a simple huffman algorithm implementation generally use
 <h2 align="center">To run the program:</h2>
 
 <br>	
-=> For Linux Users: In the terminal just run the file Huffman using the following command:
-
+For Linux Users: In the terminal just run the file Huffman using the following command:
+<br>
 	./Huffman
 
 <br>
-=> For Windows Users: Open the main.cpp in any IDE of your choice and simply build the program, then run the program using IDE.
-	
+For Windows Users: Open the main.cpp in any IDE of your choice and simply build the program, then run the program using IDE.
+<br>	
 	Note: This program uses C++11 standards. Therefore, enable gnu++11 or C++11 in your IDE before running. Else it may give compilation error/warning.
 
 <br><br>
