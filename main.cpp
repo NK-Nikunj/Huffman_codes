@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 #include "binary_tree.h"
+#include "huffman_implementation.h"
 
 string validate() {
 
@@ -41,5 +42,5 @@ int main() {
 
 	int* count = get_count(text);
 
-	//TODO add Huffman implementation
+	huffman(text, count);
 }
