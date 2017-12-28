@@ -38,7 +38,7 @@
 
 				if(count[i] != 0) {
 					
-					char ch[1] = {(char) i};
+					char ch[2] = {(char) i, '\0'};
 					
 					string to_push = "";
 					to_push.append(ch);
@@ -49,7 +49,6 @@
 				}
 			}
 
-			//min_heap.print();
 			generate_tree(min_heap);
 		}
 
@@ -75,32 +74,10 @@
 
 			generate_codes(top);
 			
-			//print(top, 0);
-			//cout << endl;
-
 			hashmap(top);
 			compress();
 		}
 
-/*
-		void print(BT* top, int space) {
-
-			if(top == NULL) 
-				return;
-
-			space += 20;
-
-			print(top->right, space);
-
-			cout << endl;
-			for(int i = 10 ; i < space; i++)
-				cout << " ";
-			cout << top->ch << ", " << top->count << ", " << top->code;
-
-			print(top->left, space); 
-
-		}
-*/
 		void generate_codes(BT* top) {
 
 			if(top->left == NULL && top->right == NULL)
@@ -131,7 +108,7 @@
 
 			for(int i = 0 ; i < text.size() ; i++) {
 
-				char ch[1] = {text.at(i)};
+				char ch[2] = {text.at(i), '\0'};
 				string to_compress = "";
 				to_compress.append(ch);
 

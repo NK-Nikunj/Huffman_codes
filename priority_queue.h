@@ -82,14 +82,7 @@
 			if(!is_empty())
 				return store[0];
 		}
-
-/*
-		void print() {
-
-			for(int i = 0 ; i < store.size() ; i++)
-				cout << store[i]->ch << ":" << store[i]->count << endl;
-		}
-*/
+		
 	};
 
 #endif
