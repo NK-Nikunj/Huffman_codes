@@ -8,6 +8,13 @@ This repository contains a simple huffman algorithm implementation generally use
  	For Linux Users: In the terminal just run the file Huffman using the following command:
   
   	./Huffman
+
+
+If you wish to build yourself ,type:
+
+```
+$(CXX) main.cpp -o main 
+```
   
  <br>
  	For Windows Users: Open the main.cpp in any IDE of your choice and simply build the program, then run the program using IDE.
